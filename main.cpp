@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    //check//////cdsfsdcccc
+    //check//////cdsfsdccccsfccccсcsx
     cout << "Hello World!" << endl;
     return 0;
 }
