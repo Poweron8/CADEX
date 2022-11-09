@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(CADEX LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(CADEX main.cpp)
+
+install(TARGETS CADEX
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
