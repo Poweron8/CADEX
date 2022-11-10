@@ -4,4 +4,16 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        circle.cpp \
+        curve.cpp \
+        ellipse.cpp \
+        helix.cpp \
+        main.cpp \
+        point.cpp
+
+HEADERS += \
+    circle.h \
+    curve.h \
+    ellipse.h \
+    helix.h \
+    point.h
