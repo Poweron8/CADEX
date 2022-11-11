@@ -3,7 +3,7 @@
 //contains the coordinates of the 3D point
 struct point
 {
-    using coord = int;
+    using coord = float;
 public:
     point() = default;
     ~point() = default;
