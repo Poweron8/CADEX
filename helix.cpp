@@ -4,7 +4,6 @@
 point helix::GetPoint(float tRad)
 {
     point result;
-    CutPeriod(tRad);
     result.x = _circle.GetPoint(tRad).x;
     result.y = _circle.GetPoint(tRad).y;
     result.z = tRad *_step/(2 * M_PI);
