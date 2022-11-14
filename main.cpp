@@ -1,13 +1,11 @@
 #include <iostream>
 #include <list>
 #include <memory>
-#include "curve.h"
-#include "ellipse.h"
-#include "helix.h"
-#include "circle.h"
 #include <cstdlib>
 #include <ctime>
 #include <cstdio>
+#include "curves.h"
+
 using namespace std;
 
 int main()
